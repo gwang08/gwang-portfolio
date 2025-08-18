@@ -83,7 +83,7 @@
         "description": "Nền tảng bán lại vé sự kiện cho phép người dùng mua và bán vé nhanh chóng, minh bạch. Được xây dựng với Next.js và Tailwind CSS, tích hợp xác thực tài khoản, danh sách giao dịch thời gian thực và giao diện thân thiện, giúp nâng cao trải nghiệm và tạo sự an tâm cho người tham gia."
       },
       "ftech": {
-        "description": "Nền tảng thương mại điện tử mang đến trải nghiệm mua sắm liền mạch và an toàn. Được xây dựng với JSP, hệ thống hỗ trợ cập nhật sản phẩm thời gian thực, xử lý thanh toán bảo mật cao và giao diện thân thiện, dễ sử dụng. Người dùng có thể tìm kiếm, mua hàng và theo dõi đơn một cách thuận tiện."
+        "description": "Nền tảng thương mại điện tử mang đến trải nghiệm mua sắm liền mạch và an toàn. Được xây dựng với JSP, hệ thống hỗ trợ cập nhật sản phẩm thời gian thực, xử lý thanh toán bảo mật cao và giao diện thân thiện, dễ sử dụng. Người dùng có thể tìm kiếm, mua hàng và theo dõi đơn một thuận tiện."
       },
       "goodmeal": {
         "description": "Nền tảng gợi ý món ăn được hỗ trợ bởi AI, đưa ra đề xuất dựa trên tâm trạng và vị trí người dùng. Hệ thống được phát triển theo kiến trúc microservices, với frontend Next.js trên AWS Amplify và backend .NET trên ECS/EC2. Bao gồm phân tích ngôn ngữ tự nhiên, tìm kiếm theo vị trí và gợi ý thời gian thực."
@@ -92,7 +92,7 @@
         "description": "Nền tảng giao hàng nhanh kết nối đối tác tài xế và khách hàng có nhu cầu vận chuyển. Website được phát triển với Next.js và MongoDB, đóng vai trò giới thiệu dịch vụ, cung cấp thông tin chi tiết về chính sách, bảng giá, quyền lợi đối tác, và hỗ trợ đăng ký trực tuyến với quy trình minh bạch và dễ tiếp cận."
       },
       "ghepxemobile": {
-        "description": "Ứng dụng di động giao hàng theo yêu cầu, kết nối trực tiếp tài xế và khách hàng. Được xây dựng với React Native và MongoDB, tích hợp các tính năng tạo đơn, theo dõi lộ trình , quản lý ví điện tử, thanh toán trực tuyến và hệ thống đánh giá sau khi giao hàng, mang lại trải nghiệm nhanh chóng, an toàn và tiết kiệm."
+        "description": "Ứng dụng di động giao hàng theo yêu cầu, kết nối trực tiếp tài xế và khách hàng. Được xây dựng với React Native và MongoDB, tích hợp các tính năng tạo đơn, theo dõi lộ trình , quản lý ví điện tử, thanh toán trực tuyến và hệ thống đánh giá sau khi giao hàng, mang lại trải nghiệm nhanh chóng, an toàn."
       }
     }
   },

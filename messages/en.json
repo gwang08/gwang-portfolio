@@ -86,7 +86,7 @@
         "description": "An innovative e-commerce platform designed to deliver a seamless and secure shopping journey. Built with JSP, it supports real-time product updates, encrypted payment processing, and an intuitive interface that makes it easy for customers to browse, purchase, and track their orders efficiently."
       },
       "goodmeal": {
-        "description": "An AI-powered food recommendation platform that suggests dishes and nearby restaurants based on mood prompts and location. Built on a microservices architecture with a Next.js frontend on AWS Amplify and .NET backend on ECS/EC2. Features natural-language mood analysis, location-aware search, and real-time personalized recommendations."
+        "description": "An AI-powered food recommendation platform that suggests dishes and nearby restaurants based on mood prompts and location. Built on a microservices architecture with a Next.js frontend on AWS Amplify and .NET backend on ECS/EC2. Features natural-language mood analysis, location-aware search, and real-time recommendations."
       },
       "ghepxe": {
         "description": "A fast delivery platform connecting partner drivers with customers who need goods transported. Built with Next.js and MongoDB, the website introduces the service, outlines pricing, policies, and partner benefits, and enables drivers to register online through a simple and transparent onboarding process."
