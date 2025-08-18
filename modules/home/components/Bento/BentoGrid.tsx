@@ -4,12 +4,26 @@ import { useTranslations } from "next-intl";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
 import SectionSubHeading from "@/common/components/elements/SectionSubHeading";
-import { BENTO } from "@/common/constants/bento";
+import { BENTO_CONFIG } from "@/common/constants/bento";
+import { BentoItemProps } from "@/common/types/bento";
 
 const BentoGrid = () => {
   const t = useTranslations("HomePage.bento");
 
-  const filteredBento = BENTO.filter((item) => item?.isShow);
+  const filteredBento = BENTO_CONFIG.filter((item) => item?.isShow);
+
+  // Convert BENTO_CONFIG to BENTO with translated text
+  const bentoItems: BentoItemProps[] = filteredBento.map((item) => ({
+    title: t(item.titleKey),
+    description: t(item.descriptionKey),
+    label: item.label,
+    icon: item.icon,
+    visual: item.visual,
+    href: item.href,
+    colSpan: item.colSpan,
+    className: item.className,
+    isShow: item.isShow,
+  }));
 
   return (
     <section className="space-y-5">
@@ -19,7 +33,7 @@ const BentoGrid = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-2 md:grid-cols-4">
-        {filteredBento.map((item, index) => (
+        {bentoItems.map((item, index) => (
           <BentoCard key={index} {...item} />
         ))}
       </div>

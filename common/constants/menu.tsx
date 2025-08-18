@@ -54,14 +54,7 @@ export const MENU_ITEMS: MenuItemProps[] = [
     isExternal: false,
     eventName: "Pages: Dashboard",
   },
-  {
-    title: "Chat Room",
-    href: "/chat",
-    icon: <ChatRoomIcon size={iconSize} />,
-    isShow: true,
-    isExternal: false,
-    eventName: "Pages: Chat Room",
-  },
+  
   {
     title: "Contact",
     href: "/contact",

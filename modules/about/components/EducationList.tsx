@@ -6,7 +6,6 @@ import { EDUCATION } from "@/common/constants/education";
 
 import EducationCard from "./EducationCard";
 import { useTranslations } from "next-intl";
-import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
 const EducationList = () => {
@@ -19,7 +18,6 @@ const EducationList = () => {
         <SectionSubHeading>
           <p>{t("sub_title")}</p>
           <div className="mt-2 flex flex-col gap-4 md:mt-0 md:flex-row">
-            <Portfolio />
             <Resume />
           </div>
         </SectionSubHeading>

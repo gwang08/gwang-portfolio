@@ -1,27 +1,51 @@
 {
   "HomePage": {
-    "intro": "Hi, I'm Satria Bahari",
-    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "intro": "Hi, I'm Le Minh Quang ",
+    "location": "Based in HCM city, Vietnam VN",
     "location_type": "Onsite",
-    "resume": "Experienced and passionate Fullstack Developer specializing in building scalable and efficient digital solutions. On the frontend, I work with Next.js, TypeScript, and Tailwind CSS to craft responsive and accessible user interfaces. On the backend, I develop robust services using Golang, and for mobile, I build native Android apps with Kotlin. I’m a collaborative and detail-oriented engineer committed to delivering well-structured, high-performance applications across platforms.",
+    "resume": "I'm a React Front-End Developer passionate about building interactive and scalable web applications. I love creating beautiful user interfaces and turning ideas into reality through code.",
     "skills": {
       "title": "Skills",
       "sub_title": "My professional skills."
     },
     "bento": {
       "title": "Featured Sections",
-      "sub_title": "Explore everything I’ve crafted, contributed, and accomplished."
+      "sub_title": "Explore everything I've crafted, contributed, and accomplished.",
+      "projects": {
+        "title": "Projects Showcase",
+        "description": "A selection of real apps built to solve real problems."
+      },
+      "about": {
+        "title": "About Me",
+        "description": "Who I am and what I do."
+      },
+      "skills": {
+        "title": "Skills & Tools",
+        "description": "Covering mobile, web, AI, and UI/UX technologies."
+      },
+      "achievements": {
+        "title": "Achievements",
+        "description": "Milestones from programs, projects, and communities."
+      },
+      "chat": {
+        "title": "Smart Talk",
+        "description": "AI-powered space for natural, insightful conversations."
+      },
+      "services": {
+        "title": "Services",
+        "description": "End-to-end solutions in web, mobile, AI, and design."
+      }
     }
   },
   "AboutPage": {
     "title": "About",
     "description": "A brief introduction to who I am.",
     "resume": {
-      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I'm a Fullstack Developer with a passion for building impactful software products. My stack includes modern frontend technologies like Next.js, TypeScript, and Tailwind CSS, as well as backend development using Golang. For mobile applications, I develop native Android apps using Kotlin.",
+      "paragraf_1": "Hello! Thank you for visiting my personal website. I'm Le Minh Quang, a Frontend Developer passionate about building modern, user-friendly web applications. I especially enjoy working with React, Next.js, TypeScript, and Tailwind CSS to create clean, high-performance interfaces.",
 
-      "paragraf_2": "I enjoy creating solutions that are both user-friendly and performant. Whether it's building intuitive interfaces or architecting backend services, I aim to bring efficiency and clarity into every layer of the application. I’m a fast learner who thrives in dynamic environments, and I enjoy solving complex problems collaboratively.",
+      "paragraf_2": "I focus on delivering smooth, efficient, and intuitive user experiences. Whether it's crafting pixel-perfect UI components or optimizing performance, I aim to bring clarity and consistency to every aspect of a project. I'm a fast learner who loves exploring new technologies to continually improve my skills.",
 
-      "paragraf_3": "I believe that great communication and team synergy are key to success in software development. My experience has shaped my technical and analytical skills, as well as my leadership qualities. I'm always excited to work in teams, learn from others, and contribute to impactful projects.",
+      "paragraf_3": "I believe that great communication and teamwork are essential to success in software development. I'm always eager to collaborate, learn from others, and contribute to impactful projects that make a real difference.",
 
       "paragraf_4": "Best regards,"
     },
@@ -38,43 +62,44 @@
   },
   "AchievementsPage": {
     "title": "Achievements",
-    "description": "A curated collection of certificates and badges I’ve earned throughout my professional and academic journey.",
+    "description": "A curated collection of certificates and badges I've earned throughout my professional and academic journey.",
     "error": "An error occurred on the server.",
     "no_data": "No data available.",
     "show_credential": "Show Credentials"
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A showcase of both private and open-source projects I’ve built or contributed to.",
+    "description": "A showcase of both private and open-source projects I've built or contributed to.",
     "view_project": "View Project",
+    "view_on_github": "View on GitHub",
     "tech_stack": "Tech Stack",
     "back_button": "Back",
     "source_code_text": "Source Code",
     "live_demo_text": "Live Demo",
     "error": "An error occurred on the server.",
-    "no_data": "No data available."
+    "no_data": "No data available.",
+    "projects": {
+      "ticketresell": {
+        "description": "A dynamic event ticket reselling platform that allows users to buy and sell tickets quickly and securely. Built with Next.js and Tailwind CSS, it features user authentication, real-time listings, and a responsive interface designed to enhance trust and create a seamless user experience."
+      },
+      "ftech": {
+        "description": "An innovative e-commerce platform designed to deliver a seamless and secure shopping journey. Built with JSP, it supports real-time product updates, encrypted payment processing, and an intuitive interface that makes it easy for customers to browse, purchase, and track their orders efficiently."
+      },
+      "goodmeal": {
+        "description": "An AI-powered food recommendation platform that suggests dishes and nearby restaurants based on mood prompts and location. Built on a microservices architecture with a Next.js frontend on AWS Amplify and .NET backend on ECS/EC2. Features natural-language mood analysis, location-aware search, and real-time personalized recommendations."
+      },
+      "ghepxe": {
+        "description": "A fast delivery platform connecting partner drivers with customers who need goods transported. Built with Next.js and MongoDB, the website introduces the service, outlines pricing, policies, and partner benefits, and enables drivers to register online through a simple and transparent onboarding process."
+      },
+      "ghepxemobile": {
+        "description": "A mobile delivery app that connects drivers and customers in real time. Built with React Native and MongoDB, it includes features such as order creation, live GPS tracking, in-app wallet management, secure online payments, and a post-delivery review system, providing a reliable, efficient, and cost-effective experience."
+      }
+    }
   },
   "DashboardPage": {
     "title": "Dashboard",
     "description": "My personal dashboard built with Next.js API routes, visualizing development statistics and contributions in real-time.",
     "error": "An error occurred on the server.",
-    "umami": {
-      "title": "Umami",
-      "sub_title": "Monitor real-time traffic and interactions from my portfolio site.",
-      "overview": {
-        "page_views": "Page Views",
-        "visitors": "Visitors",
-        "visits": "Visits",
-        "countries": "Countries",
-        "events": "Events"
-      },
-      "chart": {
-        "title": "Traffic Trends",
-        "sessions": "Sessions",
-        "page_views": "Page Views"
-      },
-      "filter_placeholder": "Filter domain..."
-    },
     "github": {
       "title": "GitHub Contributions",
       "sub_title": "My GitHub activity over the past year.",
@@ -98,16 +123,6 @@
       "all_time_since_joined": "All-Time Coding Since Joined",
       "languages": "Top Languages"
     },
-    "codewars": {
-      "title": "Codewars Progress",
-      "sub_title": "Performance metrics from Codewars challenges.",
-      "title_rank": "Rank",
-      "title_honor": "Honor",
-      "title_completed": "Challenges Completed",
-      "title_leaderboard": "Global Leaderboard",
-      "title_clan": "Clan",
-      "title_skills": "Associated Skills"
-    },
     "monkeytype": {
       "title": "Monkeytype Stats",
       "sub_title": "Typing statistics and performance.",
@@ -127,21 +142,15 @@
       "total_xp": "Total XP"
     }
   },
-  "ChatRoomPage": {
-    "title": "Chat Room",
-    "description": "Feel free to share your thoughts, suggestions, questions, or anything else!",
+  "SmartTalkPage": {
+    "title": "Smart Talk",
+    "description": "An AI-powered space for natural, insightful conversations and idea exploration.",
     "placeholder": "Type your message...",
     "sign_in": {
-      "title": "Please sign in to join the conversation. Don't worry, your data is safe with us.",
+      "title": "Please sign in to start a conversation with AI.",
       "label": "Sign in with",
       "signed_label": "Signed in as",
       "sign_out_label": "Sign out"
-    },
-    "widget": {
-      "title": "Chat Room",
-      "tooltip_title": "Open Chat Room",
-      "tooltip_minimize": "Minimize",
-      "tooltip_signout": "Sign out"
     }
   },
   "ContactPage": {
@@ -161,9 +170,9 @@
         "title": "Let's Connect",
         "description": "Connect with me professionally."
       },
-      "tiktok": {
-        "title": "Join the Fun",
-        "description": "Watch engaging and fun content."
+      "facebook": {
+        "title": "Connect on Facebook",
+        "description": "Follow updates and community content."
       },
       "github": {
         "title": "Explore the Code",
@@ -178,18 +187,14 @@
       "button": "Send Email"
     }
   },
-  "SmartTalkPage": {
-    "title": "Smart Talk",
-    "description": "An AI-powered space for natural, insightful conversations and idea exploration."
-  },
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",
-    "copyright_2": "Satria Bahari. All rights reserved."
+    "copyright_2": "Le Minh Quang. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",
-    "id": "🇮🇩",
+    "id": "🇻🇳",
     "label": "Language"
   },
   "Navigation": {
@@ -198,7 +203,7 @@
     "Achievements": "Achievements",
     "Projects": "Projects",
     "Dashboard": "Dashboard",
-    "Chat Room": "Chat Room",
+    "Chat Room": "Smart Talk",
     "Contact": "Contact",
     "Smart Talk": "Smart Talk"
   },

@@ -9,3 +9,15 @@ export type BentoItemProps = {
   className?: string;
   isShow?: boolean;
 };
+
+export type BentoConfigProps = {
+  titleKey: string;
+  descriptionKey: string;
+  label?: string;
+  icon?: JSX.Element;
+  visual?: React.ReactNode;
+  href?: string;
+  colSpan?: number;
+  className?: string;
+  isShow?: boolean;
+};

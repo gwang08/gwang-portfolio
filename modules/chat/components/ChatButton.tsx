@@ -17,7 +17,7 @@ const ChatButton = () => {
   const isMobile = useIsMobile();
 
   const handleClick = () => {
-    isMobile ? router.push("/chat") : toggleChat();
+    isMobile ? router.push("/smart-talk") : toggleChat();
   };
 
   return (

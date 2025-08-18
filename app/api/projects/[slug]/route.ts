@@ -1,19 +1,27 @@
 import { NextResponse } from "next/server";
-
-import { getProjectsDataBySlug } from "@/services/projects";
+import { getProjectBySlug } from "@/services/projects";
 
 export const GET = async (
-  req: Request,
-  { params }: { params: { slug: string } },
+  request: Request,
+  { params }: { params: { slug: string } }
 ) => {
   try {
     const { slug } = params;
-    const data = await getProjectsDataBySlug(slug);
-    return NextResponse.json(data, { status: 200 });
+    const project = await getProjectBySlug(slug);
+    
+    if (!project) {
+      return NextResponse.json(
+        { error: "Project not found" },
+        { status: 404 }
+      );
+    }
+
+    return NextResponse.json(project, { status: 200 });
   } catch (error) {
+    console.error("Error fetching project data:", error);
     return NextResponse.json(
-      { message: "Internal Server Error" },
-      { status: 500 },
+      { error: "Failed to fetch project data" },
+      { status: 500 }
     );
   }
 };

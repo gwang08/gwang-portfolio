@@ -1,16 +1,16 @@
 export const METADATA = {
-  creator: "Satria Bahari",
+  creator: "Le Minh Quang",
   description: "Personal website, portfolio, blog",
-  keyword: "satria, satria bahari",
+  keyword: "Quang, Le Minh Quang",
   authors: {
-    name: "Satria Bahari",
+    name: "Le Minh Quang",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "Satria Bahari",
+    siteName: "Le Minh Quang",
     locale: "id-ID",
   },
-  exTitle: "| Satria Bahari",
+  exTitle: "| Le Minh Quang",
   profile: "/images/satria.jpg",
 };

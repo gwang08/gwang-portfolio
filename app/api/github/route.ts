@@ -1,15 +1,24 @@
 import { NextResponse } from "next/server";
-
 import { getGithubData } from "@/services/github";
 
 export const GET = async () => {
   try {
-    const response = await getGithubData();
-    return NextResponse.json(response.data, { status: 200 });
+    const result = await getGithubData();
+    
+    if (result.status > 400 || !result.data) {
+      return NextResponse.json(
+        { error: "Failed to fetch GitHub data" },
+        { status: result.status || 500 }
+      );
+    }
+
+    // Return the data in the format expected by the frontend
+    return NextResponse.json(result.data, { status: 200 });
   } catch (error) {
+    console.error("Error fetching GitHub data:", error);
     return NextResponse.json(
-      { message: "Internal Server Error" },
-      { status: 500 },
+      { error: "Failed to fetch GitHub data" },
+      { status: 500 }
     );
   }
 };

@@ -1,8 +1,8 @@
 import Stack from "@/common/components/elements/StackImages";
 
-const images = Array.from({ length: 4 }, (_, i) => ({
+const images = Array.from({ length: 1 }, (_, i) => ({
   id: i + 1,
-  img: `/images/satria-${i + 1}.jpg`,
+  img: `/images/quang-${i + 1}.jpg`,
 }));
 
 const StackImagesPersonal = () => {

@@ -14,7 +14,6 @@ import { MONKEYTYPE_ACCOUNT } from "@/common/constants/monkeytype";
 import MonkeytypeSkeleton from "./MonkeytypeSkeleton";
 import Overview from "./Overview";
 import Profile from "./Profile";
-import Leaderboard from "./Leaderboard";
 
 const Monkeytype = () => {
   const { data, isLoading, error } = useSWR("/api/monkeytype", fetcher);
@@ -42,7 +41,7 @@ const Monkeytype = () => {
           target="_blank"
           className="text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-500 dark:hover:text-neutral-400"
         >
-          SatriaAxel
+          Link
         </Link>
       </SectionSubHeading>
 
@@ -53,7 +52,6 @@ const Monkeytype = () => {
       ) : (
         <div className="flex flex-col gap-4">
           <Profile data={data} />
-          <Leaderboard data={data} />
           <Overview data={data} />
         </div>
       )}

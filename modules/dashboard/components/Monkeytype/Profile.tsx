@@ -88,13 +88,18 @@ const Profile = ({ data }: ProfileProps) => {
       <div className="flex flex-col gap-y-2">
         <div className="flex gap-x-4">
           <div className="flex items-center">
-            <Image
-              src={"/images/satria-3.jpg"}
-              width={80}
-              height={80}
-              alt="Satria Bahari"
-              className="rounded-full border-2 border-neutral-400 transition-all duration-300 dark:border-neutral-600 lg:hover:scale-105"
-            />
+            <div
+              className="rounded-full overflow-hidden border-2 border-neutral-400 transition-all duration-300 dark:border-neutral-600 lg:hover:scale-105"
+              style={{ width: 80, height: 80 }}
+            >
+              <Image
+                src={"/images/quang-2.jpg"}
+                width={80}
+                height={80}
+                alt="Le Minh Quang"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
           <div className="flex flex-col">

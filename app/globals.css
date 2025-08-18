@@ -10,6 +10,11 @@
     radial-gradient(ellipse 15% 15% at 60% -10%, rgba(254, 240, 138, 80%) 0%, rgb(8 0 0 / 0%)) no-repeat;
 } */
 
+/* Vietnamese font support */
+body {
+  font-family: var(--soraSans-font), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 ::-webkit-scrollbar {
   @apply w-1;
 }

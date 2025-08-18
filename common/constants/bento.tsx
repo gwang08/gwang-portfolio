@@ -12,7 +12,7 @@ import ChatPreview from "@/modules/home/components/Bento/ChatPreview";
 import MarqueeIcons from "@/modules/home/components/Bento/MarqueeIcons";
 import AchievementFolder from "@/modules/home/components/Bento/AchievementFolder";
 
-import { BentoItemProps } from "../types/bento";
+import { BentoConfigProps } from "../types/bento";
 
 const AnimatedListProject = dynamic(() => import("@/modules/home/components/Bento/AnimatedListProject"), { ssr: false });
 const StackImagesPersonal = dynamic(() => import("@/modules/home/components/Bento/StackImagesPersonal"), { ssr: false });
@@ -20,10 +20,10 @@ const TrueFocusService = dynamic(() => import("@/modules/home/components/Bento/T
 
 const size = 22;
 
-export const BENTO: BentoItemProps[] = [
+export const BENTO_CONFIG: BentoConfigProps[] = [
   {
-    title: "Projects Showcase",
-    description: "A selection of real apps built to solve real problems.",
+    titleKey: "projects.title",
+    descriptionKey: "projects.description",
     label: "Projects",
     icon: <ProjectIcon size={size} />,
     visual: <AnimatedListProject />,
@@ -33,8 +33,8 @@ export const BENTO: BentoItemProps[] = [
     isShow: true,
   },
   {
-    title: "About Me",
-    description: "Who I am and what I do.",
+    titleKey: "about.title",
+    descriptionKey: "about.description",
     label: "About",
     icon: <AboutIcon size={size} />,
     visual: <StackImagesPersonal />,
@@ -44,8 +44,8 @@ export const BENTO: BentoItemProps[] = [
     isShow: true,
   },
   {
-    title: "Skills & Tools",
-    description: "Covering mobile, web, AI, and UI/UX technologies.",
+    titleKey: "skills.title",
+    descriptionKey: "skills.description",
     label: "Stack",
     icon: <DashboardIcon size={size} />,
     visual: <MarqueeIcons />,
@@ -55,8 +55,8 @@ export const BENTO: BentoItemProps[] = [
     isShow: true,
   },
   {
-    title: "Achievements",
-    description: "Milestones from programs, projects, and communities.",
+    titleKey: "achievements.title",
+    descriptionKey: "achievements.description",
     label: "Achievements",
     icon: <AchievementIcon size={size} />,
     visual: <AchievementFolder />,
@@ -66,19 +66,19 @@ export const BENTO: BentoItemProps[] = [
     isShow: true,
   },
   {
-    title: "Chat Room",
-    description: "Open space to talk and collaborate.",
+    titleKey: "chat.title",
+    descriptionKey: "chat.description",
     label: "Chat",
     icon: <ChatRoomIcon size={size} />,
     visual: <ChatPreview />,
-    href: "/chat",
+    href: "/smart-talk",
     colSpan: 1,
     className: "from-gray-700 to-gray-900",
     isShow: true,
   },
   {
-    title: "Services",
-    description: "End-to-end solutions in web, mobile, AI, and design.",
+    titleKey: "services.title",
+    descriptionKey: "services.description",
     label: "Services",
     icon: <ContactIcon size={size} />,
     visual: <TrueFocusService />,

@@ -1,209 +1,203 @@
 {
   "HomePage": {
-    "intro": "Hai, saya Satria Bahari",
-    "location": "Berdomisili di Jambi, Indonesia 🇮🇩",
-    "location_type": "Tatap Muka",
-    "resume": "Pengembang Fullstack yang berpengalaman dan penuh semangat, berspesialisasi dalam membangun solusi digital yang skalabel dan efisien. Di sisi frontend, saya menggunakan Next.js, TypeScript, dan Tailwind CSS untuk membuat antarmuka pengguna yang responsif dan mudah diakses. Di sisi backend, saya mengembangkan layanan yang tangguh menggunakan Golang, dan untuk mobile, saya membangun aplikasi Android native menggunakan Kotlin. Saya adalah engineer yang kolaboratif dan berorientasi pada detail, berkomitmen untuk menghadirkan aplikasi lintas platform yang terstruktur dengan baik dan berkinerja tinggi.",
+    "intro": "Xin chào, tôi là Lê Minh Quang",
+    "location": "Sống tại TP. Hồ Chí Minh, Việt Nam ",
+    "location_type": "Làm việc tại văn phòng",
+    "resume": "Tôi là một React Front-End Developer đam mê xây dựng các ứng dụng web tương tác và có thể mở rộng. Tôi yêu thích tạo ra những giao diện người dùng đẹp mắt và biến ý tưởng thành hiện thực thông qua code.",
     "skills": {
-      "title": "Keahlian",
-      "sub_title": "Keahlian profesional saya."
+      "title": "Kỹ năng",
+      "sub_title": "Các kỹ năng chuyên môn của tôi."
     },
     "bento": {
-      "title": "Bagian Unggulan",
-      "sub_title": "Jelajahi semua yang telah saya buat, kontribusikan, dan capai."
+      "title": "Phần nổi bật",
+      "sub_title": "Khám phá mọi thứ tôi đã tạo ra, đóng góp và đạt được.",
+      "projects": {
+        "title": "Trưng bày dự án",
+        "description": "Tuyển chọn các ứng dụng thực tế được xây dựng để giải quyết các vấn đề thực tế."
+      },
+      "about": {
+        "title": "Về tôi",
+        "description": "Tôi là ai và tôi làm gì."
+      },
+      "skills": {
+        "title": "Kỹ năng & Công cụ",
+        "description": "Bao gồm công nghệ di động, web, AI và UI/UX."
+      },
+      "achievements": {
+        "title": "Thành tích",
+        "description": "Những cột mốc từ các chương trình, dự án và cộng đồng."
+      },
+      "chat": {
+        "title": "Smart Talk",
+        "description": "Không gian được hỗ trợ bởi AI cho các cuộc trò chuyện tự nhiên."
+      },
+      "services": {
+        "title": "Dịch vụ",
+        "description": "Giải pháp từ đầu đến cuối trong web, mobile, AI và thiết kế."
+      }
     }
   },
   "AboutPage": {
-    "title": "Tentang",
-    "description": "Perkenalan singkat tentang siapa saya.",
+    "title": "Giới thiệu",
+    "description": "Giới thiệu ngắn gọn về con người tôi.",
     "resume": {
-      "paragraf_1": "Halo! Terima kasih telah mengunjungi situs pribadi saya. Saya Satria Bahari, seorang mahasiswa Sistem Informasi di Universitas Jambi. Saya adalah seorang Fullstack Developer dengan minat besar dalam membangun produk perangkat lunak yang berdampak. Stack teknologi saya meliputi teknologi frontend modern seperti Next.js, TypeScript, dan Tailwind CSS, serta pengembangan backend menggunakan Golang. Untuk aplikasi mobile, saya mengembangkan aplikasi Android native menggunakan Kotlin.",
+      "paragraf_1": "Xin chào! Cảm ơn bạn đã ghé thăm trang web cá nhân của tôi. Tôi là Lê Minh Quang, một Frontend Developer đam mê xây dựng các ứng dụng web hiện đại, thân thiện với người dùng. Tôi đặc biệt thích làm việc với React, Next.js, TypeScript và Tailwind CSS để tạo ra những giao diện sạch sẽ, hiệu suất cao.",
 
-      "paragraf_2": "Saya menikmati menciptakan solusi yang ramah pengguna dan memiliki performa tinggi. Baik saat membangun antarmuka yang intuitif maupun merancang layanan backend, saya selalu berusaha membawa efisiensi dan kejelasan pada setiap lapisan aplikasi. Saya pembelajar cepat yang tumbuh dalam lingkungan dinamis dan senang menyelesaikan masalah kompleks secara kolaboratif.",
+      "paragraf_2": "Tôi tập trung vào việc cung cấp trải nghiệm người dùng mượt mà, hiệu quả và trực quan. Dù là tạo ra các component UI hoàn hảo hay tối ưu hiệu suất, tôi luôn hướng đến sự rõ ràng và nhất quán trong mọi khía cạnh của dự án. Tôi là người học nhanh, luôn khám phá công nghệ mới để cải thiện kỹ năng.",
 
-      "paragraf_3": "Saya percaya bahwa komunikasi yang baik dan sinergi tim adalah kunci kesuksesan dalam pengembangan perangkat lunak. Pengalaman saya telah membentuk kemampuan teknis dan analitis saya, serta kualitas kepemimpinan saya. Saya selalu bersemangat untuk bekerja dalam tim, belajar dari orang lain, dan berkontribusi pada proyek yang berdampak.",
+      "paragraf_3": "Tôi tin rằng giao tiếp tốt và làm việc nhóm là chìa khóa để thành công trong phát triển phần mềm. Tôi luôn háo hức hợp tác, học hỏi từ người khác và đóng góp vào những dự án có tác động thực sự.",
 
-      "paragraf_4": "Salam hangat,"
+      "paragraf_4": "Trân trọng,"
     },
     "career": {
-      "title": "Karier",
-      "sub_title": "Perjalanan profesional saya."
+      "title": "Sự nghiệp",
+      "sub_title": "Hành trình nghề nghiệp của tôi."
     },
     "education": {
-      "title": "Pendidikan",
-      "sub_title": "Perjalanan pendidikan saya."
+      "title": "Học vấn",
+      "sub_title": "Hành trình giáo dục của tôi."
     },
-    "resume_download_button": "Unduh CV",
-    "portfolio_download_button": "Unduh Portofolio"
+    "resume_download_button": "Tải CV",
+    "portfolio_download_button": "Tải Portfolio"
   },
   "AchievementsPage": {
-    "title": "Pencapaian",
-    "description": "Kumpulan sertifikat dan badge yang saya peroleh sepanjang perjalanan profesional dan akademik.",
-    "error": "Terjadi kesalahan pada server.",
-    "no_data": "Data tidak tersedia.",
-    "show_credential": "Lihat Kredensial"
+    "title": "Thành tích",
+    "description": "Bộ sưu tập các chứng chỉ và huy hiệu tôi đã đạt được trong suốt hành trình nghề nghiệp và học tập.",
+    "error": "Đã xảy ra lỗi trên server.",
+    "no_data": "Không có dữ liệu.",
+    "show_credential": "Xem chứng chỉ"
   },
   "ProjectsPage": {
-    "title": "Proyek",
-    "description": "Pameran proyek pribadi dan open-source yang telah saya buat atau kontribusikan.",
-    "view_project": "Lihat Proyek",
-    "tech_stack": "Teknologi yang Digunakan",
-    "back_button": "Kembali",
-    "source_code_text": "Kode Sumber",
-    "live_demo_text": "Demo Langsung",
-    "error": "Terjadi kesalahan pada server.",
-    "no_data": "Data tidak tersedia."
+    "title": "Dự án",
+    "description": "Trưng bày các dự án cá nhân và mã nguồn mở mà tôi đã xây dựng hoặc đóng góp.",
+    "view_project": "Xem dự án",
+    "view_on_github": "Xem trên GitHub",
+    "tech_stack": "Công nghệ sử dụng",
+    "back_button": "Quay lại",
+    "source_code_text": "Mã nguồn",
+    "live_demo_text": "Demo trực tuyến",
+    "error": "Đã xảy ra lỗi trên server.",
+    "no_data": "Không có dữ liệu.",
+    "projects": {
+      "ticketresell": {
+        "description": "Nền tảng bán lại vé sự kiện cho phép người dùng mua và bán vé nhanh chóng, minh bạch. Được xây dựng với Next.js và Tailwind CSS, tích hợp xác thực tài khoản, danh sách giao dịch thời gian thực và giao diện thân thiện, giúp nâng cao trải nghiệm và tạo sự an tâm cho người tham gia."
+      },
+      "ftech": {
+        "description": "Nền tảng thương mại điện tử mang đến trải nghiệm mua sắm liền mạch và an toàn. Được xây dựng với JSP, hệ thống hỗ trợ cập nhật sản phẩm thời gian thực, xử lý thanh toán bảo mật cao và giao diện thân thiện, dễ sử dụng. Người dùng có thể tìm kiếm, mua hàng và theo dõi đơn một cách thuận tiện."
+      },
+      "goodmeal": {
+        "description": "Nền tảng gợi ý món ăn được hỗ trợ bởi AI, đưa ra đề xuất dựa trên tâm trạng và vị trí người dùng. Hệ thống được phát triển theo kiến trúc microservices, với frontend Next.js trên AWS Amplify và backend .NET trên ECS/EC2. Bao gồm phân tích ngôn ngữ tự nhiên, tìm kiếm theo vị trí và gợi ý thời gian thực."
+      },
+      "ghepxe": {
+        "description": "Nền tảng giao hàng nhanh kết nối đối tác tài xế và khách hàng có nhu cầu vận chuyển. Website được phát triển với Next.js và MongoDB, đóng vai trò giới thiệu dịch vụ, cung cấp thông tin chi tiết về chính sách, bảng giá, quyền lợi đối tác, và hỗ trợ đăng ký trực tuyến với quy trình minh bạch và dễ tiếp cận."
+      },
+      "ghepxemobile": {
+        "description": "Ứng dụng di động giao hàng theo yêu cầu, kết nối trực tiếp tài xế và khách hàng. Được xây dựng với React Native và MongoDB, tích hợp các tính năng tạo đơn, theo dõi lộ trình , quản lý ví điện tử, thanh toán trực tuyến và hệ thống đánh giá sau khi giao hàng, mang lại trải nghiệm nhanh chóng, an toàn và tiết kiệm."
+      }
+    }
   },
   "DashboardPage": {
-    "title": "Dasbor",
-    "description": "Dasbor pribadi saya yang dibangun dengan Next.js API routes, memvisualisasikan statistik pengembangan dan kontribusi secara real-time.",
-    "error": "Terjadi kesalahan pada server.",
-    "umami": {
-      "title": "Umami",
-      "sub_title": "Pantau lalu lintas dan interaksi secara real-time dari situs portofolio saya.",
-      "overview": {
-        "page_views": "Tampilan",
-        "visitors": "Pengunjung",
-        "visits": "Kunjungan",
-        "countries": "Negara",
-        "events": "Peristiwa"
-      },
-      "chart": {
-        "title": "Tren Lalu Lintas",
-        "sessions": "Sesi",
-        "page_views": "Tampilan Halaman"
-      },
-      "filter_placeholder": "Saring domain..."
-    },
+    "title": "Bảng điều khiển",
+    "description": "Bảng điều khiển cá nhân được xây dựng với Next.js API routes, hiển thị thống kê phát triển và đóng góp theo thời gian thực.",
+    "error": "Đã xảy ra lỗi trên server.",
     "github": {
-      "title": "Kontribusi GitHub",
-      "sub_title": "Aktivitas GitHub saya selama satu tahun terakhir.",
-      "title_total_contribution": "Total",
-      "title_total_this_week_contributino": "Minggu ini",
-      "title_best_contribution": "Terbaik",
-      "title_average_contribution": "Rata-rata",
-      "title_less_contribution": "Paling Sedikit",
-      "title_more_contribution": "Paling Banyak",
-      "unit": "hari"
+      "title": "Đóng góp GitHub",
+      "sub_title": "Hoạt động GitHub của tôi trong năm qua.",
+      "title_total_contribution": "Tổng cộng",
+      "title_total_this_week_contributino": "Tuần này",
+      "title_best_contribution": "Tốt nhất",
+      "title_average_contribution": "Trung bình",
+      "title_less_contribution": "Ít nhất",
+      "title_more_contribution": "Nhiều nhất",
+      "unit": "ngày"
     },
-    "wakatime": {
-      "title": "Statistik WakaTime",
-      "sub_title": "Aktivitas coding selama 7 hari terakhir.",
-      "last_update": "Pembaruan Terakhir",
-      "start_date": "Tanggal Mulai",
-      "end_date": "Tanggal Selesai",
-      "daily_average": "Rata-rata Waktu Coding Harian",
-      "total_this_week": "Total Minggu Ini",
-      "best_day": "Hari Terbaik",
-      "all_time_since_joined": "Total Coding Sejak Bergabung",
-      "languages": "Bahasa Teratas"
-    },
-    "codewars": {
-      "title": "Perkembangan Codewars",
-      "sub_title": "Metri performa dari tantangan Codewars.",
-      "title_rank": "Peringkat",
-      "title_honor": "Honor",
-      "title_completed": "Tantangan Diselesaikan",
-      "title_leaderboard": "Papan Peringkat Global",
-      "title_clan": "Klan",
-      "title_skills": "Keahlian Terkait"
-    },
+
     "monkeytype": {
-      "title": "Statistik Monkeytype",
-      "sub_title": "Statistik dan performa mengetik.",
-      "joined": "Bergabung",
-      "current_streak": "Rekor Saat Ini",
-      "unit_days": "hari",
-      "title_test_started": "Tes Dimulai",
-      "title_test_completed": "Tes Selesai",
-      "title_time_typing": "Total Waktu Mengetik",
-      "title_leaderboard": "Papan Peringkat Bahasa Inggris Sepanjang Masa",
-      "unit_seconds": "detik",
-      "unit_time": "waktu",
-      "unit_words": "kata",
-      "top": "teratas",
-      "days_ago": "hari yang lalu",
-      "xp_until_next_level": "XP ke Level Selanjutnya",
-      "total_xp": "Total XP"
-    }
-  },
-  "ChatRoomPage": {
-    "title": "Ruang Obrolan",
-    "description": "Silakan bagikan pendapat, saran, pertanyaan, atau apa pun di sini!",
-    "placeholder": "Ketik pesan Anda...",
-    "sign_in": {
-      "title": "Silakan masuk untuk bergabung dalam percakapan. Tenang, data Anda aman bersama kami.",
-      "label": "Masuk dengan",
-      "signed_label": "Masuk sebagai",
-      "sign_out_label": "Keluar"
-    },
-    "widget": {
-      "title": "Ruang Obrolan",
-      "tooltip_title": "Buka Ruang Obrolan",
-      "tooltip_minimize": "Minimalkan",
-      "tooltip_signout": "Keluar"
-    }
-  },
-  "ContactPage": {
-    "title": "Kontak",
-    "description": "Mari kita terhubung",
-    "social_media": {
-      "title": "Temukan saya di media sosial",
-      "gmail": {
-        "title": "Tetap Terhubung",
-        "description": "Hubungi saya via email untuk pertanyaan atau kolaborasi."
-      },
-      "instagram": {
-        "title": "Ikuti Perjalanan Saya",
-        "description": "Ikuti perjalanan kreatif saya."
-      },
-      "linkedin": {
-        "title": "Mari Terhubung",
-        "description": "Terhubung secara profesional dengan saya."
-      },
-      "tiktok": {
-        "title": "Ikut Seru-seruan",
-        "description": "Tonton konten yang seru dan menarik."
-      },
-      "github": {
-        "title": "Jelajahi Kode",
-        "description": "Lihat karya open-source saya."
-      }
-    },
-    "form": {
-      "title": "Atau kirim saya pesan",
-      "input_name": "Nama",
-      "input_email": "Email",
-      "input_message": "Pesan",
-      "button": "Kirim Email"
+      "title": "Thống kê Monkeytype",
+      "sub_title": "Thống kê và hiệu suất đánh máy.",
+      "joined": "Tham gia",
+      "current_streak": "Chuỗi hiện tại",
+      "unit_days": "ngày",
+      "title_test_started": "Bài test bắt đầu",
+      "title_test_completed": "Bài test hoàn thành",
+      "title_time_typing": "Tổng thời gian đánh máy",
+      "title_leaderboard": "Bảng xếp hạng tiếng Anh mọi thời đại",
+      "unit_seconds": "giây",
+      "unit_time": "lần",
+      "unit_words": "từ",
+      "top": "top",
+      "days_ago": "ngày trước",
+      "xp_until_next_level": "XP đến level tiếp theo",
+      "total_xp": "Tổng XP"
     }
   },
   "SmartTalkPage": {
     "title": "Smart Talk",
-    "description": "Ruang berbasis AI untuk percakapan alami, penuh wawasan, dan eksplorasi ide."
+    "description": "Không gian được hỗ trợ bởi AI cho các cuộc trò chuyện tự nhiên, sâu sắc và khám phá ý tưởng.",
+    "placeholder": "Nhập tin nhắn của bạn...",
+    "sign_in": {
+      "title": "Vui lòng đăng nhập để bắt đầu cuộc trò chuyện với AI.",
+      "label": "Đăng nhập với",
+      "signed_label": "Đã đăng nhập bằng",
+      "sign_out_label": "Đăng xuất"
+    }
+  },
+  "ContactPage": {
+    "title": "Liên hệ",
+    "description": "Hãy kết nối với nhau",
+    "social_media": {
+      "title": "Tìm tôi trên mạng xã hội",
+      "gmail": {
+        "title": "Giữ liên lạc",
+        "description": "Liên hệ qua email để hỏi thông tin hoặc hợp tác."
+      },
+      "instagram": {
+        "title": "Theo dõi hành trình của tôi",
+        "description": "Theo dõi hành trình sáng tạo của tôi."
+      },
+      "linkedin": {
+        "title": "Hãy kết nối",
+        "description": "Kết nối với tôi một cách chuyên nghiệp."
+      },
+      "facebook": {
+        "title": "Kết nối trên Facebook",
+        "description": "Theo dõi cập nhật và nội dung cộng đồng."
+      },
+      "github": {
+        "title": "Khám phá code",
+        "description": "Xem các công việc mã nguồn mở của tôi."
+      }
+    },
+    "form": {
+      "title": "Hoặc gửi tin nhắn cho tôi",
+      "input_name": "Tên",
+      "input_email": "Email",
+      "input_message": "Tin nhắn",
+      "button": "Gửi email"
+    }
   },
   "Footer": {
-    "hire": "Rekrut saya.",
-    "copyright_1": "HAK CIPTA © ",
-    "copyright_2": "Satria Bahari. Seluruh hak dilindungi."
+    "hire": "Thuê tôi.",
+    "copyright_1": "BẢN QUYỀN © ",
+    "copyright_2": "Lê Minh Quang. Tất cả quyền được bảo lưu."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",
-    "id": "🇮🇩",
-    "label": "Bahasa"
+    "id": "��",
+    "label": "Ngôn ngữ"
   },
   "Navigation": {
-    "Home": "Beranda",
-    "About": "Tentang",
-    "Achievements": "Pencapaian",
-    "Projects": "Proyek",
-    "Dashboard": "Dasbor",
-    "Chat Room": "Ruang Obrolan",
-    "Contact": "Kontak",
+    "Home": "Trang chủ",
+    "About": "Giới thiệu",
+    "Achievements": "Thành tích",
+    "Projects": "Dự án",
+    "Dashboard": "Bảng điều khiển",
+    "Chat Room": "Smart Talk",
+    "Contact": "Liên hệ",
     "Smart Talk": "Smart Talk"
   },
   "NotFoundPage": {
-    "title": "Halaman tidak ditemukan",
-    "button": "Bawa saya ke beranda"
+    "title": "Không tìm thấy trang",
+    "button": "Đưa tôi về trang chủ"
   }
 }
