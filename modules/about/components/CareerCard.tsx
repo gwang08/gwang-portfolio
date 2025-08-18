@@ -47,10 +47,10 @@ const CareerCard = ({
     durationText += `${durationMonths} Month${durationMonths > 1 ? "s" : ""}`;
   }
 
-  const hideText = locale == "en" ? "Hide" : "Sembunyikan";
-  const showText = locale == "en" ? "Show" : "Tampilkan";
+  const hideText = locale == "en" ? "Hide" : "Ẩn";
+  const showText = locale == "en" ? "Show" : "Hiện";
   const responsibilityText =
-    locale == "en" ? "responsibilities" : "tanggung jawab";
+    locale == "en" ? "responsibilities" : "trách nhiệm";
 
   return (
     <SpotlightCard className="flex items-start gap-5 p-6">
