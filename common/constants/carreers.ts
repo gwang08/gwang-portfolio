@@ -1,22 +1,23 @@
 import { CareerProps } from "../types/careers";
 
+export const CAREER_KEYS = {
+  FPT_SOFTWARE: "fpt_software"
+} as const;
+
 export const CAREERS: CareerProps[] = [
   {
-    position: "Frontend Web Developer",
+    position: CAREER_KEYS.FPT_SOFTWARE,
     company: "FPT Software",
     logo: "/images/careers/fsoft.png",
-    location: "HoChiMinh, Vietnam",
-    location_type: "On-site",
-    type: "Internship",
+    location: CAREER_KEYS.FPT_SOFTWARE,
+    location_type: CAREER_KEYS.FPT_SOFTWARE,
+    type: CAREER_KEYS.FPT_SOFTWARE,
     start_date: "2025-01",
     end_date: "2025-05",
-    industry: "Engineering, Procurement & Construction (EPC)",
+    industry: CAREER_KEYS.FPT_SOFTWARE,
     link: "https://fptsoftware.com/",
-    responsibilities: [
-      "Developed a user interface for an AI-powered chatbot (AI Agent) using React.js.",
-      "Collaborated with backend and AI teams to integrate natural language processing features.",
-      "Focused on creating a clean and responsive UI/UX for real-time chatbot interaction.",
-    ],
+    responsibilities: [], // Will be populated from translation
+    translationKey: CAREER_KEYS.FPT_SOFTWARE,
     isShow: true,
   },
 ];

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { BsBuildings as CompanyIcon } from "react-icons/bs";
 import { HiChevronRight as ChevronIcon } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { differenceInMonths, differenceInYears, format } from "date-fns";
 
 import SpotlightCard from "@/common/components/elements/SpotlightCard";
@@ -24,11 +24,13 @@ const CareerCard = ({
   type,
   location_type,
   responsibilities,
+  translationKey,
   indexCareer,
 }: CareerProps) => {
   const [isShowResponsibility, setIsShowResponsibility] = useState(false);
 
   const locale = useLocale();
+  const t = useTranslations('Career');
 
   const startDate = new Date(start_date);
   const endDate = end_date ? new Date(end_date) : new Date();
@@ -37,20 +39,28 @@ const CareerCard = ({
   const durationMonths = differenceInMonths(endDate, startDate) % 12;
 
   const yearText =
-    locale == "en" ? `year${durationYears > 1 ? "s" : ""}` : "tahun";
+    locale == "en" ? `year${durationYears > 1 ? "s" : ""}` : "năm";
 
   let durationText = "";
   if (durationYears > 0) {
     durationText += `${durationYears} ${yearText}`;
   }
   if (durationMonths > 0 || durationYears === 0) {
-    durationText += `${durationMonths} Month${durationMonths > 1 ? "s" : ""}`;
+    const monthText = locale == "en" ? `month${durationMonths > 1 ? "s" : ""}` : "tháng";
+    durationText += `${durationText ? " " : ""}${durationMonths} ${monthText}`;
   }
 
   const hideText = locale == "en" ? "Hide" : "Ẩn";
   const showText = locale == "en" ? "Show" : "Hiện";
   const responsibilityText =
     locale == "en" ? "responsibilities" : "trách nhiệm";
+
+  // Get translated content
+  const translatedPosition = translationKey ? t(`${translationKey}.position`) : position;
+  const translatedLocation = translationKey ? t(`${translationKey}.location`) : location;
+  const translatedType = translationKey ? t(`${translationKey}.type`) : type;
+  const translatedLocationType = translationKey ? t(`${translationKey}.location_type`) : location_type;
+  const translatedResponsibilities = translationKey ? t.raw(`${translationKey}.responsibilities`) : responsibilities;
 
   return (
     <SpotlightCard className="flex items-start gap-5 p-6">
@@ -67,7 +77,7 @@ const CareerCard = ({
       )}
 
       <div className="space-y-1">
-        <h5>{position}</h5>
+        <h5>{translatedPosition}</h5>
         <div className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
           <div className="flex flex-col gap-2 md:flex-row">
             <Link href={link || "#"} target="_blank">
@@ -78,7 +88,7 @@ const CareerCard = ({
             <span className="hidden text-neutral-300 dark:text-neutral-700 md:block">
               •
             </span>
-            <span>{location}</span>
+            <span>{translatedLocation}</span>
           </div>
 
           <div className="flex flex-col gap-2 text-[13px] md:flex-row">
@@ -96,18 +106,18 @@ const CareerCard = ({
               •
             </span>
             <span className="text-neutral-600 dark:text-neutral-400">
-              {type}
+              {translatedType}
             </span>
 
             <span className="hidden text-neutral-300 dark:text-neutral-700 md:block">
               •
             </span>
             <span className="text-neutral-600 dark:text-neutral-400">
-              {location_type}
+              {translatedLocationType}
             </span>
           </div>
 
-          {responsibilities != null && (
+          {translatedResponsibilities != null && (
             <>
               <button
                 onClick={() => setIsShowResponsibility(!isShowResponsibility)}
@@ -134,7 +144,7 @@ const CareerCard = ({
                     exit={{ y: -20, opacity: 0 }}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
                   >
-                    {responsibilities?.map((responsibility, index) => (
+                    {Array.isArray(translatedResponsibilities) && translatedResponsibilities?.map((responsibility: string, index: number) => (
                       <motion.li key={index} layout>
                         {responsibility}
                       </motion.li>

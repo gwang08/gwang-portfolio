@@ -187,6 +187,29 @@
       "button": "Send Email"
     }
   },
+  "Education": {
+    "fpt_university": {
+      "school": "FPT University",
+      "major": "Software Engineering",
+      "location": "Ho Chi Minh City, Vietnam",
+      "degree": "Bachelor's degree"
+    }
+  },
+  "Career": {
+    "fpt_software": {
+      "position": "Frontend Web Developer",
+      "company": "FPT Software",
+      "location": "Ho Chi Minh City, Vietnam",
+      "location_type": "On-site",
+      "type": "Internship",
+      "industry": "Engineering, Procurement & Construction (EPC)",
+      "responsibilities": [
+        "Developed a user interface for an AI-powered chatbot (AI Agent) using React.js.",
+        "Collaborated with backend and AI teams to integrate natural language processing features.",
+        "Focused on creating a clean and responsive UI/UX for real-time chatbot interaction."
+      ]
+    }
+  },
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",

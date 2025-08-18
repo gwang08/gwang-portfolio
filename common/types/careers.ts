@@ -10,6 +10,7 @@ export interface CareerProps {
   industry: string;
   link: string | null;
   responsibilities?: string[];
+  translationKey?: string; // Key for translation lookup
   indexCareer?: number;
   isShow?: boolean;
 }

@@ -7,4 +7,5 @@ export type EducationProps = {
   start_year: number;
   end_year: number;
   link: string;
+  translationKey?: string; // Key for translation lookup
 }

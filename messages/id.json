@@ -176,6 +176,29 @@
       "button": "Gửi email"
     }
   },
+  "Education": {
+    "fpt_university": {
+      "school": "Đại học FPT",
+      "major": "Kỹ thuật phần mềm",
+      "location": "TP. Hồ Chí Minh, Việt Nam",
+      "degree": "Bằng cử nhân"
+    }
+  },
+  "Career": {
+    "fpt_software": {
+      "position": "Frontend Web Developer",
+      "company": "FPT Software", 
+      "location": "TP. Hồ Chí Minh, Việt Nam",
+      "location_type": "Tại văn phòng",
+      "type": "Thực tập",
+      "industry": "Kỹ thuật, Mua sắm & Xây dựng (EPC)",
+      "responsibilities": [
+        "Phát triển giao diện người dùng cho chatbot được hỗ trợ bởi AI (AI Agent) sử dụng React.js.",
+        "Hợp tác với nhóm backend và AI để tích hợp các tính năng xử lý ngôn ngữ tự nhiên.",
+        "Tập trung tạo ra UI/UX sạch sẽ và responsive cho tương tác chatbot thời gian thực."
+      ]
+    }
+  },
   "Footer": {
     "hire": "Thuê tôi.",
     "copyright_1": "BẢN QUYỀN © ",
