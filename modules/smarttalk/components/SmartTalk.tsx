@@ -219,35 +219,35 @@ const SmartTalk = () => {
               {/* Sign In Button */}
               <button
                 onClick={() => signIn()}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl sm:px-8"
               >
                 <div className="absolute inset-0 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-10"></div>
-                <span className="relative flex items-center gap-2 font-semibold">
-                  <BiUser size={20} />
-                  {t("sign_in.label")} Google
+                <span className="relative flex items-center justify-center gap-2 font-semibold text-sm sm:text-base">
+                  <BiUser size={20} className="shrink-0" />
+                  <span className="whitespace-nowrap">{t("sign_in.label")}</span>
                 </span>
               </button>
 
               {/* Features List */}
-              <div className="mt-8 grid max-w-2xl grid-cols-1 gap-4 md:grid-cols-3">
-                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-4 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50">
-                  <BiBot className="mx-auto mb-2 text-blue-500" size={24} />
-                  <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              <div className="mt-6 grid max-w-2xl grid-cols-1 gap-3 px-4 sm:mt-8 sm:grid-cols-3 sm:gap-4 sm:px-0">
+                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-3 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50 sm:p-4">
+                  <BiBot className="mx-auto mb-2 text-blue-500" size={20} />
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
                     {locale === "id" ? "Hỗ trợ AI" : "AI-Powered"}
                   </p>
                 </div>
-                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-4 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50">
+                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-3 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50 sm:p-4">
                   <HiSparkles
                     className="mx-auto mb-2 text-purple-500"
-                    size={24}
+                    size={20}
                   />
-                  <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
                     {locale === "id" ? "Phản hồi thông minh" : "Smart Response"}
                   </p>
                 </div>
-                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-4 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50">
-                  <BiStar className="mx-auto mb-2 text-yellow-500" size={24} />
-                  <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                <div className="rounded-xl border border-neutral-200/50 bg-white/50 p-3 text-center dark:border-neutral-700/50 dark:bg-neutral-800/50 sm:p-4">
+                  <BiStar className="mx-auto mb-2 text-yellow-500" size={20} />
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
                     {locale === "id" ? "Chuyên nghiệp" : "Professional"}
                   </p>
                 </div>

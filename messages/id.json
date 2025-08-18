@@ -137,7 +137,7 @@
     "placeholder": "Nhập tin nhắn của bạn...",
     "sign_in": {
       "title": "Vui lòng đăng nhập để bắt đầu cuộc trò chuyện với AI.",
-      "label": "Đăng nhập với",
+      "label": "Đăng nhập",
       "signed_label": "Đã đăng nhập bằng",
       "sign_out_label": "Đăng xuất"
     }

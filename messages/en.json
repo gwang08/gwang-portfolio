@@ -148,7 +148,7 @@
     "placeholder": "Type your message...",
     "sign_in": {
       "title": "Please sign in to start a conversation with AI.",
-      "label": "Sign in with",
+      "label": "Sign in",
       "signed_label": "Signed in as",
       "sign_out_label": "Sign out"
     }
