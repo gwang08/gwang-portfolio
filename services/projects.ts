@@ -2,6 +2,12 @@ export async function getProjectsDataBySlug(slug: string): Promise<ProjectItem |
 	const projects = await getProjects();
 	return projects.find((p) => p.slug === slug);
 }
+
+export async function getProjectBySlug(slug: string): Promise<ProjectItem | undefined> {
+	const projects = await getProjects();
+	return projects.find((p) => p.slug === slug);
+}
+
 import { ProjectItem } from "@/common/types/projects";
 
 export async function getProjects(): Promise<ProjectItem[]> {
