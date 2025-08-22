@@ -155,7 +155,7 @@ const Calendar = ({ data }: CalendarProps) => {
           )}
         >
           {selectContribution?.count}{" "}
-          {locale == "en" ? "contributions on" : "kontribusi pada"}{" "}
+          {locale == "en" ? "contributions on" : "đóng góp vào"}{" "}
           {selectContribution?.date}
         </div>
       </div>

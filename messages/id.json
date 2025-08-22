@@ -65,7 +65,8 @@
     "description": "Bộ sưu tập các chứng chỉ và huy hiệu tôi đã đạt được trong suốt hành trình nghề nghiệp và học tập.",
     "error": "Đã xảy ra lỗi trên server.",
     "no_data": "Không có dữ liệu.",
-    "show_credential": "Xem chứng chỉ"
+    "show_credential": "Xem chứng chỉ",
+    "total": "Tổng cộng"
   },
   "ProjectsPage": {
     "title": "Dự án",
