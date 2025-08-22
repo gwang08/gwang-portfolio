@@ -12,7 +12,7 @@ export const GET = async () => {
       );
     }
 
-    // Return the data in the format expected by the frontend
+    // Return the data in the format expected by the frontends
     return NextResponse.json(result.data, { status: 200 });
   } catch (error) {
     console.error("Error fetching GitHub data:", error);
