@@ -82,7 +82,7 @@ const mockAchievements = [
     name: " ON THE JOB TRAINING",
     category: "Certificate",
     url_credential:
-      "https://fap.fpt.edu.vn/temp/ce5b95b4-4039-417d-a75c-7887b35ff00c.pdf",
+      "https://fap.fpt.edu.vn/temp/f018fdf0-054e-4d86-82e0-940c8ebea8be.pdf",
     issue_date: "2025-07-24",
     image: "/images/achievements/certificates/ojt.jpeg",
     is_show: true,
@@ -93,7 +93,7 @@ const mockAchievements = [
 
     category: "Certificate",
     url_credential:
-      "https://fap.fpt.edu.vn/temp/8de11245-a2b3-4f3f-a79d-63224cf8b269.pdf",
+      "https://fap.fpt.edu.vn/temp/4838aeb1-7602-4a83-8b70-334250ebecf0.pdf",
     issue_date: "2024-06-14",
     image: "/images/achievements/certificates/svg.jpeg",
     is_show: true,
